@@ -1,5 +1,6 @@
 //import { convertDate } from "./utils";
 var zip_code;
+//zip_code input from the user
 do
 {zip_code = prompt("ENTER ZIP CODE");}
 while (zip_code.length === 0 || !zip_code.trim()); 
